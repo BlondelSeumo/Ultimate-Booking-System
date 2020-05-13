@@ -1,0 +1,8 @@
+{
+    "/css/app.css": "/css/app.css",
+    "/module/booking/css/checkout.css": "/module/booking/css/checkout.css",
+    "/module/user/css/user.css": "/module/user/css/user.css",
+    "/module/tour/css/tour.css": "/module/tour/css/tour.css",
+    "/module/news/css/news.css": "/module/news/css/news.css",
+    "/module/media/css/browser.css": "/module/media/css/browser.css"
+}

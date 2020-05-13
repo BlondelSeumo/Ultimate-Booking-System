@@ -1,0 +1,163 @@
+.bravo-login-page{
+    padding: 100px 0px;
+}
+
+.modal .modal-content {
+    border-radius: 5px;
+    padding: 20px 30px 30px;
+    @media(max-width: 990px){
+        padding: 15px 20px;
+    }
+    .modal-header {
+        padding: 0 0 10px;
+        border: none;
+        .close {
+            margin-top: 0;
+            opacity: 1;
+        }
+        .modal-title {
+            font-size: 24px;
+            font-weight: 500;
+        }
+    }
+    .modal-body {
+        padding: 0;
+        .form-group {
+            position: relative;
+            margin-top: 0;
+            margin-bottom: 20px;
+            @media(max-width: 990px){
+                margin-bottom: 15px;
+            }
+            .form-control {
+                height: 45px;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                border: 1px solid #DAE1E7;
+                border-radius: 3px;
+                font-size: 14px;
+                color: #5E6D77;
+            }
+            .input-icon {
+                position: absolute;
+                top: 22px;
+                right: 15px;
+                font-size: 20px;
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+                color: #acb5be;
+                line-height: 0px;
+            }
+        }
+        label, .st-link {
+            font-size: 14px;
+            font-weight: 400;
+            margin-bottom: 0;
+        }
+        input {
+            &[type="checkbox"] {
+                margin-right: 5px;
+            }
+            &[type="radio"] {
+                margin-right: 10px;
+            }
+        }
+        .form-submit {
+            height: 45px;
+            width: 100%;
+            background: #5191FA;
+            color: #FFF;
+            text-transform: uppercase;
+            font-size: 14px;
+            border: none;
+            border-radius: 3px;
+            font-weight: 600;
+        }
+        .advanced {
+            background: #f9f9f9;
+            margin-top: 20px;
+            padding: 30px;
+            margin-left: -30px;
+            margin-right: -30px;
+            .socials {
+                padding-top: 20px;
+                padding-bottom: 35px;
+            }
+        }
+    }
+}
+
+.bravo-login-form-page{
+    .form-title{
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    .form-control{
+        height: 45px;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border: 1px solid #DAE1E7;
+        border-radius: 3px;
+        font-size: 14px;
+        color: #5E6D77;
+    }
+    .form-group{
+        position: relative;
+        margin-bottom: 20px;
+        .input-icon{
+            position: absolute;
+            top: 22px;
+            right: 15px;
+            font-size: 20px;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            color: #acb5be;
+            line-height: 0px;
+        }
+    }
+}
+.bravo-form-login,.bravo-form-register{
+    .icon-loading{
+        display: none;
+    }
+    .form-submit{
+        width: 100%;
+    }
+    .bravo-recaptcha{
+        > div{
+            margin: auto;
+            @media(max-width: 990px){
+                margin: 0;
+            }
+        }
+    }
+}
+.btn_login_fb_link{
+    background: #395899;
+    color:white;
+}
+
+.btn_login_tw_link{
+    background: #03a9f4;
+    color:white;
+}
+.btn_login_gg_link{
+    background: #f34a38;
+    color:white;
+}
+.btn_login_fb_link,
+.btn_login_tw_link,
+.btn_login_gg_link
+{
+    border-radius: 2px;
+    font-size: 12px;
+    display: block;
+    &:hover{
+        color:white;
+        outline:none;
+        box-shadow: none;
+    }
+}
+
+

@@ -1,0 +1,48 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "f-dev": "cross-env process.env.section=frontend NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "f-watch": "npm run f-dev -- --watch",
+        "f-prod": "cross-env process.env.section=frontend NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+        "axios": "^0.19.0",
+        "bootstrap": "^4.3.1",
+        "cross-env": "^5.1",
+        "css-loader": "^2.1.1",
+        "del": "^5.0.0",
+        "gulp": "^4.0.2",
+        "gulp-rename": "^1.4.0",
+        "gulp-zip": "^5.0.0",
+        "jquery": "^3.4.1",
+        "laravel-mix": "^4.0.16",
+        "lodash": "^4.17.5",
+        "popper.js": "^1.15.0",
+        "postcss-loader": "^3.0.0",
+        "resolve-url-loader": "^2.3.1",
+        "sass": "^1.21.0",
+        "sass-loader": "^7.1.0",
+        "vue": "^2.6.10",
+        "vue-template-compiler": "^2.6.10"
+    },
+    "dependencies": {
+        "@ckeditor/ckeditor5-build-classic": "^12.2.0",
+        "@ckeditor/ckeditor5-vue": "^1.0.0-beta.2",
+        "core-js": "^2.6.5",
+        "font-awesome": "^4.7.0",
+        "ionicons": "^4.5.8",
+        "raw-loader": "^2.0.0",
+        "style-loader": "^0.23.1",
+        "vue-draggable-nested-tree": "^2.2.17",
+        "vue-form-generator": "^2.3.4",
+        "vuedraggable": "^2.21.0"
+    }
+}

@@ -1,0 +1,16 @@
+[2019-07-04 01:46:17] local.ERROR: Class 'Modules\News\Providers\RouteServiceProvider' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class 'Modules\\News\\Providers\\RouteServiceProvider' not found at E:\\Dungdt\\booking-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:670)
+[stacktrace]
+#0 E:\\Dungdt\\booking-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(604): Illuminate\\Foundation\\Application->resolveProvider('Modules\\\\News\\\\Pr...')
+#1 E:\\Dungdt\\booking-core\\modules\\News\\ModuleProvider.php(34): Illuminate\\Foundation\\Application->register('Modules\\\\News\\\\Pr...')
+#2 E:\\Dungdt\\booking-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(607): Modules\\News\\ModuleProvider->register()
+#3 E:\\Dungdt\\booking-core\\modules\\ServiceProvider.php(27): Illuminate\\Foundation\\Application->register(Object(Modules\\News\\ModuleProvider))
+#4 E:\\Dungdt\\booking-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(607): Modules\\ServiceProvider->register()
+#5 E:\\Dungdt\\booking-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Modules\\ServiceProvider))
+#6 E:\\Dungdt\\booking-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(584): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#7 E:\\Dungdt\\booking-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#8 E:\\Dungdt\\booking-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#9 E:\\Dungdt\\booking-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(322): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#10 E:\\Dungdt\\booking-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#11 E:\\Dungdt\\booking-core\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 {main}
+"} 

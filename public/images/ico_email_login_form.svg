@@ -1,0 +1,20 @@
+<svg height="14.5" width="18px" viewBox="0 0 24 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_email_login_form</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Hotel-layout" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Log-In" transform="translate(-912.000000, -220.000000)" stroke="#A0A9B2">
+            <g id="login" transform="translate(466.000000, 80.000000)">
+                <g id="input" transform="translate(30.000000, 119.000000)">
+                    <g id="Group" transform="translate(416.000000, 22.000000)">
+                        <g id="ico_email_login_form">
+                            <rect id="Rectangle-path" x="0.5" y="0.0101176471" width="23" height="16.9411765" rx="2"></rect>
+                            <polyline id="Shape" points="22.911 0.626352941 12 10.0689412 1.089 0.626352941"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

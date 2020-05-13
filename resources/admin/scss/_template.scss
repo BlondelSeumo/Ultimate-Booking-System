@@ -1,0 +1,108 @@
+.block-panel{
+    margin-bottom: 10px;
+    .block-title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        border: 1px solid #ddd;
+        line-height: 26px;
+        position: relative;
+        padding: 7px 0px 7px 15px;
+        overflow: hidden;
+        word-wrap: break-word;
+        background: whitesmoke;
+        font-size: 14px;
+        font-weight: 600;
+
+        .title-right{
+
+            i{
+                font-size: 22px;
+                padding: 0px 12px;
+                cursor: pointer;
+                margin-right: -3px;
+
+            }
+            span{
+            }
+            .show-hover{
+                display: none;
+            }
+            .block-delete{
+                color:red;
+                i{
+                    color:red;
+                }
+            }
+        }
+
+        &:hover{
+
+            .show-hover{
+                display: inline-block;
+            }
+        }
+    }
+
+    .block-content{
+        border: 1px solid #ddd;
+        border-top: 0px;
+        padding: 10px;
+    }
+}
+
+.templates-items-zone{
+    .block-panel{
+        .block-title{
+            .title-right{
+                padding-right: 10px;
+                i{
+                    font-size: 18px;
+                    padding: 0px;
+                    margin-right: 0px;
+                }
+                .btn{
+                    line-height: initial;
+                    padding: 3px 10px;
+                }
+                .btn-light{
+                    border-color: #e6e7e8;
+                }
+            }
+        }
+    }
+}
+.bravo-template-list-item{
+    .list-item-wraps{
+        margin-bottom: 15px;
+    }
+    .list-item{
+        border: 1px solid #c4cdd5;
+        border-radius: 3px;
+        overflow: hidden;
+        margin-bottom: 10px;
+        border-bottom: 0px;
+        .list-item-header{
+            padding: 3px 11px;
+            border-bottom: 1px solid #c4cdd5;
+            font-weight: bold;
+            background: #f1f1f1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            i{
+                font-size: 22px;
+                padding: 0px 5px;
+                cursor: pointer;
+            }
+
+        }
+        .list-item-settings{
+            padding: 6px 11px;
+            border-bottom: 1px solid #c4cdd5;
+        }
+    }
+}
+
+  

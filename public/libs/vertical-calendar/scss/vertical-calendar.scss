@@ -1,0 +1,167 @@
+.vec-wrap{
+    .vec-header-toolbar{
+        margin-bottom:20px;
+        .btn-secondary{
+            background-color: #2c3e50;
+            border-color: #2c3e50;
+            &:hover{
+                background-color: #1e2b37;
+                border-color: #1a252f;
+            }
+        }
+        .btn{
+            padding-top: 4px;
+            padding-bottom: 4px;
+            i{
+                font-size:21px;
+                width: 15px;
+                display: inline-block;
+                line-height: 22px;
+            }
+        }
+        .current-month{
+            font-size:24px;
+        }
+    }
+    td,th{
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ddd;
+    }
+    .vec-divider{
+        width: 3px;
+        border-style: double;
+        background: #eee;
+    }
+    .vec-scroll-flip{
+        overflow: hidden;
+        .vec-scroll-box{
+            overflow: auto;
+        }
+    }
+    .vec-view-container{
+        border-collapse: collapse;
+        border-spacing: 0;
+        table{
+            border-collapse: collapse;
+            border-spacing: 0;
+            border-style: hidden;
+        }
+    }
+    .vec-head{
+        .vec-event-header{
+            text-align: center;
+            font-size:18px;
+        }
+        .vc-time-area{
+            table{
+                table-layout: fixed;
+            }
+            .vec-time-text{
+                padding:4px;
+                text-align: center;
+                .vec-year,
+                .vec-day-of-week{
+                    font-weight:normal;
+                    color: #b5b2b2;
+                }
+                @media(max-width: 1440px){
+                    padding:5px 0;
+                    .vec-month{
+                        display: none;
+                    }
+                    .vec-year{
+                        display: none;
+                    }
+                    .vec-day-of-week{
+                        display: none;
+                    }
+                }
+
+            }
+
+        }
+    }
+    .vec-body
+    {
+        vertical-align: top;
+        .vec-events{
+            padding:0px;
+            .vec-event-name{
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                border-bottom: 1px solid #ddd;
+                width: 300px;
+                padding: 8px;
+                padding-left: 15px;
+                padding-right: 10px;
+                font-size: 15px;
+                min-height: 38px;
+                &:last-child{
+                    border-bottom: 0px;
+                }
+            }
+        }
+        .vec-time-area{
+            position: relative;
+            .vec-events-list{
+                position: relative;
+                z-index: 2;
+                .vec-event-list-tr{
+                    .vec-event-containers{
+                        min-height: 38px;
+                        position: relative;
+                        .vec-event-item{
+                            position: absolute;
+                            background: #3788d8;
+                            padding: 2px 4px;
+                            margin-bottom: 1px;
+                            display: inline-block;
+                            cursor: pointer;
+                            color:white;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            &.status-success,
+                            &.status-paid,
+                            &.status-completed
+                            {
+                                background: #28a745;
+                            }
+                            &.status-failed,
+                            &.status-cancelled
+                            {
+                                background: red;
+                            }
+                        }
+                    }
+                }
+            }
+            .vec-events-bg{
+                position: absolute;
+                top:0px;
+                left:0px;
+                right:0px;
+                bottom:0px;
+                z-index: 1;
+                >table{
+                    height: 100%;
+                    table-layout: fixed;
+                }
+                .vec-event-time-td{
+                    border-right-width: 0;
+                }
+            }
+        }
+
+    }
+    .vec-event-name{
+        td{
+            padding: 8px;
+            padding-left: 15px;
+            padding-right: 10px;
+            font-size: 15px;
+        }
+    }
+}

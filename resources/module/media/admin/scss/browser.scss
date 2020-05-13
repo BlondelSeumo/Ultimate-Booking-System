@@ -1,0 +1,201 @@
+.cdn-full-page{
+    height: 100%;
+}
+
+.cdn-browser{
+    background: #f4f5f9;
+    height: 100%;
+    .btn-pick-files{
+        position: relative;
+        input{
+            opacity: 0;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+        }
+    }
+    .icon-loading{
+        top: 4px;
+        font-size: 20px;
+        margin-right: 10px;
+        position: relative;
+        display: none;
+        &.active{
+            display: inline-block;
+        }
+    }
+}
+.cdn-browser .files-nav{
+    padding: 9px 13px;
+    border-bottom: 1px solid #DADEE0;
+    background: white;
+}
+.cdn-browser .files-nav .filter-item{
+    padding-right: 20px;
+}
+.cdn-browser .files-nav .form-control,
+.cdn-browser .files-nav .btn{
+    height: 34px;
+    font-size: 14px;
+    line-height: normal;
+    padding: 3px 12px;
+}
+.cdn-browser .files-list{
+    flex-grow: 1;
+    overflow: auto;
+    padding: 15px;
+}
+.cdn-browser .files-list .view-grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -10px;
+}
+.cdn-browser .files-list .total-text{
+    padding: 0px 10px;
+}
+.cdn-browser .files-list .view-grid .file-item{
+    flex-shrink: 0;
+    width: 12.5%;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+.cdn-browser .files-list .view-grid .file-item .inner{
+    position: relative;
+    border:1px solid #DADEE0;
+    cursor: pointer;
+    height: 100%;
+    border-radius: 2px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.cdn-browser .files-list .view-grid .file-item .inner.active:before{
+    content:'';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    border:4px solid #007bff;
+    border-radius: 2px;
+}
+.cdn-browser .files-list .view-grid .file-item .inner.active .file-checked-status{
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    border-radius: 50%;
+    background: #007bff;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.cdn-browser .files-list .view-grid .file-item .inner.active .file-checked-status svg{
+    fill: white;
+    width: 18px;
+}
+.cdn-browser .files-list .view-grid .file-item .inner .file-thumb img{
+    max-width: 100%;
+}
+.cdn-browser .files-list .view-grid .file-item.is-image .inner .file-thumb img{
+    object-fit: cover;
+    height: 170px;
+}
+.cdn-browser .files-list .view-grid .file-item .file-thumb{
+
+}
+
+.cdn-browser .files-list .view-grid .file-item.not-image .inner .file-thumb img{
+    padding-top: 27px;
+    height: auto;
+}
+
+.cdn-browser .files-list .view-grid .file-item .inner .file-thumb{
+    text-align: center;
+}
+.cdn-browser .files-list .view-grid .file-item .file-name{
+    padding: 7px;
+    position: absolute;
+    bottom:0px;
+    left: 0px;
+    right: 0px;
+    background: rgba(0,0,0,0.6);
+    font-size: 14px;
+    height: 54px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color:white;
+}
+.cdn-browser .browser-actions{
+    background: white;
+    border-top: 1px solid #DADEE0;
+    padding: 10px;
+}
+.cdn-browser .count-selected{
+    color:#007bff;
+    font-weight: bold;
+    font-size: 14px;
+}
+.cdn-browser .clear-selected{
+    color:red;
+    font-size: 14px;
+    cursor: pointer;
+}
+.cdn-browser .no-files-text{
+    padding: 20px;
+    font-size: 20px;
+    color:red;
+
+}
+
+.cdn-browser .upload-new .filepond--root{
+    margin-bottom: 0px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #DADEE0;
+}
+.cdn-browser .upload-new .filepond--panel-root{
+    border-radius: 0px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #DADEE0;
+}
+@media(max-width: 1365px)
+{
+    .cdn-browser .files-list .view-grid .file-item{
+
+        width: 14.2%;
+    }
+}
+@media(max-width: 1100px)
+{
+    .cdn-browser .files-list .view-grid .file-item{
+        width: 14.2%;
+    }
+}
+@media(max-width: 991px)
+{
+    .cdn-browser .files-list .view-grid .file-item{
+        width: 25%;
+    }
+}
+@media(max-width: 600px)
+{
+    .cdn-browser .files-list .view-grid .file-item{
+        width: 50%;
+    }
+}
+#cdn-browser-modal{
+    overflow: hidden;
+    z-index: 2051;
+    .modal-dialog{
+        height: 100%;
+        padding-bottom: 55px;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        .modal-content{
+            height: 100%;
+        }
+    }
+}

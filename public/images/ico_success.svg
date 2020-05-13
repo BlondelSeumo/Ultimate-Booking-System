@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_success</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ico_success" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M39.9687119,0 C17.895644,0 0,17.8948946 0,39.9687119 C0,62.0425293 17.895644,79.9374239 39.9687119,79.9374239 C62.0442155,79.9374239 79.9374239,62.0425293 79.9374239,39.9687119 C79.9374239,17.8948946 62.043466,0 39.9687119,0 Z M32.636815,60.4998595 L15.0377518,42.9015457 L20.9036066,37.0356909 L32.636815,48.7681499 L59.0338173,22.3703981 L64.8996721,28.2362529 L32.636815,60.4998595 Z" id="Shape" fill="#6AC259" fill-rule="nonzero"></path>
+    </g>
+</svg>

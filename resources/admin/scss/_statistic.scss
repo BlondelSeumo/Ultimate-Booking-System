@@ -1,0 +1,127 @@
+.bravo-statistic{
+    .header-statistic{
+        background: #263a53;
+        padding: 0 20px;
+        margin-bottom: 15px;
+        color: #fff;
+        &:before,
+        &:after{
+            clear: both;
+            content: "";
+            display: table;
+        }
+        .item{
+            float: left;
+            padding: 10px 15px;
+            &:first-child{
+                padding-left: 0;
+                text-transform: uppercase;
+            }
+            &:last-child{
+                padding: 8px 20px;
+            }
+            .group-icon{
+                select{
+                    border: none;
+                    -webkit-appearance: button;
+                    appearance: button;
+                    outline: none;
+                    padding: 9px 10px;
+                    min-width: 120px;
+                    color: #fff;
+                    background: transparent;
+                    option {
+                        padding: 30px;
+                        color: #000;
+                    }
+                }
+                .select2{
+                    width: 145px;
+                }
+                .fa{
+
+                }
+            }
+            .btn-submit{
+                background: transparent;
+                box-shadow: none;
+                padding: 0px 10px 2px;
+                border-radius: 3px;
+                border: solid 1px #fff;
+                color: #fff;
+            }
+            .select2{
+                .select2-selection{
+                    background: none;
+                    height: auto;
+                    border: none;
+                    border-radius: 0;
+                    padding: 10px 30px 12px 0px;
+                    .select2-selection__arrow{
+                        height: 39px;
+                        position: absolute;
+                        top: 0px;
+                        right: 10px;
+                        width: 20px;
+                    }
+                    .select2-selection__arrow{
+                        b{
+                            border-color: #fff transparent transparent transparent;
+                        }
+                    }
+                }
+                .select2-selection__rendered{
+                    line-height: initial !important;
+                    padding-right: 0;
+                    color: #fff;
+                }
+                .select2-selection__placeholder{
+                    color: #fff;
+                }
+                &.select2-container--open .select2-selection--single .select2-selection__arrow b {
+                    border-color: transparent transparent #fff transparent;
+                }
+            }
+            &.no-padding{
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+        }
+    }
+    .g-statistic{
+        background: #fff;
+        height: 100%;
+        border: solid 1px #ccc;
+        .head{
+            padding: 10px 20px;
+            background: #fff;
+            color: #272727;
+            font-size: 16px;
+            border-bottom: solid 1px #ccc;
+        }
+        .content{
+            padding: 20px;
+            .item{
+                margin-bottom: 15px;
+                &:nth-child(2){
+                    border-bottom: dashed 1px #ccc;
+                    padding-bottom: 15px;
+                }
+                span{
+                    min-width: 100px;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+    .form-fiter-statistic{
+        .fa-spinner{
+            display: none;
+        }
+        &.loading{
+            .fa-spinner{
+                display: inline-block;
+            }
+        }
+    }
+}

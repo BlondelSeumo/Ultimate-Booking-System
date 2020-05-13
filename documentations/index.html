@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<!-- saved from url=(0028)http://docs.bookingcore.org/ -->
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" lang="en" style=""><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Booking Core Document</title>
+
+    <link rel="stylesheet" href="./assets/sphinx_rtd_theme.css" type="text/css">
+
+    <link rel="stylesheet" href="./assets/readthedocs-doc-embed.css" type="text/css">
+
+    <script src="./assets/modernizr.min.js.download"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document" style="">
+<div class="wy-grid-for-nav">
+
+
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+        <div class="wy-side-nav-search">
+
+
+            <a href="#" class="icon icon-home"> Booking Core Document </a>
+            <div role="search">
+                <div>
+                    <input type="text" name="q" placeholder="Search docs">
+                    <input type="hidden" name="check_keywords" value="yes">
+                    <input type="hidden" name="area" value="default">
+                </div>
+            </div>
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+            <ul id="menu-envas-doc" class="menu">
+                
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-340">
+                    <a href="#section-installation-wp-theme-2" class="menu-item"><span class="toctree-expand"></span>Installation </a>
+                    <ul class="sub-menu">
+                         <li class="menu-item  menu-item-343"><a href="#section-host" class="menu-item">Hosting Requirements</a></li>
+                        <li class="menu-item  menu-item-343"><a href="#section-included" class="menu-item">What’s included</a></li> 
+                        <li class="menu-item  menu-item-341"><a href="#section-install" class="menu-item">Installation System</a></li>
+                        <li class="menu-item  menu-item-341"><a href="#section-update" class="menu-item">Updating System</a></li>
+                         
+                    </ul>
+                </li>
+                
+                <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                    <a href="#section-menu" class="menu-item"><span class="toctree-expand"></span>Create Menu </a> 
+                </li>
+
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-352">
+                    <a href="#section-theme-options-2" class="menu-item"><span class="toctree-expand"></span>Settings</a>
+                    <ul class="sub-menu">
+                        <li class="menu-item  menu-item-353"><a href="#setting-gen" class="menu-item">General Settings</a></li>
+                        <li class="menu-item">
+                            <a href="#setting-tour" class="menu-item">Tour Settings</a></li>
+                        <li class="menu-item">
+                            <a href="#setting-news" class="menu-item">News Settings  </a></li>
+                        <li class="menu-item">
+                            <a href="#setting-booking" class="menu-item">Booking Settings</a></li>
+                        <li class="menu-item">
+                            <a href="#setting-payment" class="menu-item">Payment Settings</a></li>
+                        <li class="menu-item ">
+                            <a href="#setting-styling" class="menu-item">Styling Settings</a></li>
+                        <li class="menu-item">
+                            <a href="#setting-adv" class="menu-item">Advance Settings</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                    <a href="#section-homepage-2" class="menu-item"><span class="toctree-expand"></span>Home page</a>
+                    <ul class="sub-menu">
+                        <li class="menu-item">
+                            <a href="#section-template" class="menu-item">Using Templates </a></li>
+                        <li class="menu-item">
+                            <a href="#section-buildhome" class="menu-item"> Build Home Page</a></li>
+                        <li class="menu-item">
+                            <a href="#section-contact" class="menu-item">Contact Manager</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-357">
+                    <a href="#section-elements" class="menu-item"><span class="toctree-expand"></span>Booking Core Elements</a>
+                    <ul class="sub-menu">
+                        <li class="menu-item">
+                            <a href="#section-search" class="menu-item">Form Search Tour </a></li>
+                        <li class="menu-item">
+                            <a href="#section-feature" class="menu-item">List Featured Item </a></li>
+                        <li class="menu-item">
+                            <a href="#section-tour" class="menu-item">List Tour </a></li>
+                        <li class="menu-item">
+                            <a href="#section-location" class="menu-item">List Locations </a></li>
+                        <li class="menu-item">
+                            <a href="#section-call" class="menu-item">Call to Action </a></li>
+                        <li class="menu-item">
+                            <a href="#section-testimonial" class="menu-item">List Testimonial </a></li>
+                        <li class="menu-item">
+                            <a href="#section-text" class="menu-item">Text </a></li> 
+                    </ul>
+                </li>
+                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-360">
+                    <a href="#tour-manage" class="menu-item"><span class="toctree-expand"></span>Tour Manager </a>
+                    <ul class="sub-menu">
+                        <li class="menu-item ">
+                            <a href="#tour-manage" class="menu-item">Tour Listing  </a></li>
+                        <li class="menu-item ">
+                            <a href="#create-tour" class="menu-item">Creating Tour</a></li>
+                            <li class="menu-item ">
+                            <a href="#tour-category" class="menu-item">Tour Category</a></li>
+                        <li class="menu-item ">
+                            <a href="#tour-attribute" class="menu-item">Attributes Tour</a></li>
+                         <li class="menu-item ">
+                            <a href="#setting-tour" class="menu-item">Tour Setting  </a></li> 
+                    </ul>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-360">
+                    <a href="#location_manage" class="menu-item"><span class="toctree-expand"></span>Location </a>
+                    <ul class="sub-menu">
+                        <li class="menu-item ">
+                            <a href="#location_manage" class="menu-item">Location management</a></li>
+                        <li class="menu-item ">
+                            <a href="#section-location" class="menu-item">Location Settings </a></li>    
+                    </ul>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                    <a href="#section-review" class="menu-item"><span class="toctree-expand"></span>Review Manager </a> 
+                </li>
+
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-360">
+                    <a href="#section-post-2" class="menu-item"><span class="toctree-expand"></span>News </a>
+                    <ul class="sub-menu">
+                        <li class="menu-item ">
+                            <a href="#section-news" class="menu-item">Creating News</a></li>
+                        <li class="menu-item ">
+                            <a href="#setting-news" class="menu-item">News Listing  </a></li>    
+                    </ul>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                    <a href="#section-homepage-2" class="menu-item"><span class="toctree-expand"></span>User Manager</a>
+                    <ul class="sub-menu">
+                        <li class="menu-item">
+                            <a href="#section-user" class="menu-item">Create new User</a></li>
+                        <li class="menu-item">
+                            <a href="#section-role" class="menu-item">Roles Manager</a></li>
+                        <li class="menu-item">
+                            <a href="#section-permission" class="menu-item">Permission Manager</a></li>
+                        <li class="menu-item">
+                            <a href="#section-subscrible" class="menu-item">Subscribers Manager</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-360">
+                    <a href="#section-report" class="menu-item"><span class="toctree-expand"></span>Reports </a>
+                    <ul class="sub-menu">
+                        <li class="menu-item ">
+                            <a href="#section-report" class="menu-item">Booking Reports</a></li>
+                        <li class="menu-item ">
+                            <a href="#setting-statistic" class="menu-item">Booking Statistic  </a></li>    
+                        <li class="menu-item ">
+                            <a href="#section-contact" class="menu-item">Contact Submissions </a></li>    
+                    </ul>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-364">
+                    <a href="#section-extra-2" class="menu-item"><span class="toctree-expand"></span>Extra Tools</a>
+                    <ul class="sub-menu">
+
+                        <li class="menu-item">
+                            <a href="#section-language" class="menu-item">Language</a></li>
+                        <li class="menu-item">
+                            <a href="#section-translate" class="menu-item">Translations</a></li>
+                        <li class="menu-item">
+                            <a href="#section-log" class="menu-item">System Log Viewer</a></li>
+                    </ul>
+                </li>
+                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-364">
+                    <a href="#changelog" class="menu-item"><span class="toctree-expand"></span> Change Log</a>
+                    <ul class="sub-menu">
+
+                        <li class="menu-item">
+                            <a href="#v1" class="menu-item">Version 1.1.0</a></li>
+
+                    </ul>
+                </li>
+                 <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                    <a href="#section-thanks" class="menu-item"><span class="toctree-expand"></span>Thank You!</a> 
+                </li>
+            </ul>
+        </div>
+        &nbsp;
+    </nav>
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+
+        <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+            <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+            <a href="http://docs.bookingcore.org/index.html">Booking Core Doc</a>
+        </nav>
+
+
+        <div class="wy-nav-content">
+            <div class="rst-content">
+                <div role="navigation" aria-label="breadcrumbs navigation">
+                    <ul class="wy-breadcrumbs">
+                        <li><a href="http://docs.bookingcore.org/index.html">Docs</a> »</li>
+
+                        <li class="current-section">Installation </li>
+                        <li class="wy-breadcrumbs-aside">
+
+                            <a href="https://www.facebook.com/bookingcore/inbox/" class="fa fa-life-ring"> Support Page</a>
+                        </li>
+                    </ul>
+                    <hr>
+                </div>
+                <div role="main" class="document">
+                    <div id="menu-envas-doc-1" class="menu document-posts">
+                        <section class="section document-section-item" id="section-general-2" style="display: block;">
+                            <ul class="sub-menu">
+                                <section class="section document-section-item" id="section-host" style="display: block;"><h1><a href="#section-host" class="toc-backref">Server Requirements</a>
+                                    <a class="headerlink" href="#section-host" title="Permalink to this headline">¶</a>
+                                </h1>
+                                    <p style="text-align: justify;">The Laravel framework has a few system requirements.
+                                        All of these requirements are satisfied by the Laravel Homestead virtual
+                                        machine, so it's highly recommended that you use Homestead as your local Laravel
+                                        development environment.</p>
+                                    <p>However, if you are not using Homestead, you will need to make sure your server
+                                        meets the following requirements:</p>
+                                       
+                                    <ul style="text-align: justify;">
+                                        <li><a href="http://www.php.net/">PHP</a> version 7.2 and later</li>
+                                        <li>
+                                            <a href="https://ourcodeworld.com/articles/read/679/how-to-solve-the-requested-php-extension-bcmath-is-missing-from-your-system-when-installing-a-library-via-composer-in-ubuntu-16-04/">BCMath
+                                                PHP </a>Extension
+                                        </li>
+                                        <li>Ctype PHP Extension</li>
+                                        <li>JSON PHP Extension</li>
+                                        <li>Mbstring PHP Extension</li>
+                                        <li>OpenSSL PHP Extension</li>
+                                        <li>PDO PHP Extension</li>
+                                        <li>Tokenizer PHP Extension</li>
+                                        <li>XML PHP Extension</li>
+                                    </ul> 
+                                    <img class="alignnone" src="./assets/st2.png">
+                                        
+
+                                    
+
+                                </section>
+                                 
+                        <section class="section document-section-item" id="section-installation-wp-theme-2">
+                            <ul class="sub-menu">
+                                <section class="section document-section-item" id="section-included" style="display: block;"><h1><a href="#section-included" class="toc-backref">What’s included</a>
+                                    <a class="headerlink" href="#section-included" title="Permalink to this headline">¶</a>
+                                </h1>
+                                    <article class="entry-content">
+                                        <p>When purchasing <strong>Booking Core</strong> from Codecanyon, you will be able to download Booking Core files with your Envato account. There will  be  two packages for you to choose: The <strong>Main Files</strong> contains all  files, or the <strong>Installable Booking Core files</strong> with just  necessary installable Booking Core files.</p>
+                                        <p>If you choose Main Files, there will be an Booking Core Folder
+                                            included:</p>
+                                        <div class="shortcode-list">
+                                            <ul>
+                                                <li><strong>Booking Core Folder</strong> – contains the
+                                                    <strong>BookingCore.zip</strong> 
+                                                </li>
+                                                <li><strong>Documentation Folder</strong> – contains the  <strong>Document</strong> for system 
+                                                </li>
+                                                <li><strong>Licensing Folder</strong> – contains the licensing  files. (This is not your purchase code that you need to download  from codecanyon).
+                                                </li>
+                                            </ul>
+                                             
+                                             
+                                            <p></p></div>
+                                    </article>
+                                </section>
+                                <section class="section document-section-item" id="section-install"><h1><a href="#section-install" class="toc-backref">Installation System</a>
+                                    <a class="headerlink" href="#section-install" title="Permalink to this headline">¶</a>
+                                </h1>
+                                    <article class="”entry-content”"> 
+                                        <h6>Follow the steps below to install Booking Core system .</h6>
+                                        <p><strong>Step 1</strong> – Unzip the downloaded package from Codecanyon. 
+                                            Find the folder <strong>Booking Core</strong> and inside it find the file  <strong>Booking Core.zip</strong> inside it.</p>
+                                        <p><strong>Step 2</strong> – Upload <strong>Booking Core.zip</strong> to your hosting and <strong>UNZIP</strong> file.</p>
+                                        <p><img class="alignnone size-full" src="./assets/upload.png"></p>
+
+
+                                        <p><strong>Step 3</strong>: –  Open Browser with link URL: <strong> http://linkURL.com/install</strong> then Follow the panel to Install the Booking System</p>
+                                        <p><img class="alignnone size-full" src="./assets/st1.png"></p>
+                                        <p>This is some Serve information that is required for Booking System, please contact to your Supporter if the system is failed</p>
+                                        <p><img class="alignnone size-full" src="./assets/st2.png"></p>
+                                        <p>And Folder permission need to be set is 775</p>
+                                        <p><img class="alignnone size-full" src="./assets/st3-issues.png"></p>
+                                        <p><img class="alignnone size-full" src="./assets/st3.png"></p>
+
+                                        <p>After checking all information, we start to install System, Click to <strong>Form Wizard Setup</strong> button to Open Setting Panel </p>
+                                        <p><img class="alignnone size-full" src="./assets/st4.png"></p>
+                                        <p>Continue entering some your hosting information like: DB host,  DB Post, DB Name, User of DB and Password then press <strong>Setup Application</strong> button to next to Application Step <strong>Or Edit .env file</strong> for install DB</p>
+                                        <p><img class="alignnone size-full" src="./assets/st5.png"></p>
+                                        <p>&nbsp;</p>
+                                        <p>Or try with<strong> Classic Text Editor</strong></p>
+                                        <p><img class="alignnone size-full" src="./assets/st4-2.png"></p>
+
+                                        
+                                        <p>This is Installation Finished panel: </p>
+                                        <p><img class="alignnone size-full" src="./assets/st6.png"></p>
+                                        <p>&nbsp;</p>
+                                        <p>Finally, Log into your Site account by typing YOURDOMAIN.com/admin, replacing "YOURDOMAIN" with the actual domain you own.</p>
+                                        
+                                        <strong>Administrator: </strong>
+                                        <p><strong>Username: admin@dev.com</strong> / <strong>Pass: admin123</strong></p>
+
+                                        <strong>Vendor:</strong>
+                                        <p><strong>Username: vendor1@dev.com</strong>/ <strong>Pass: 123456Aa</strong></p>
+                                        <strong>Customer:</strong>
+                                        <p><strong>Username: customer1@dev.com</strong> /<strong>Pass: 123456Aa</strong></p>
+                                    </article>
+                                </section>
+                               <section class="section document-section-item" id="section-update"><h1><a href="#section-update" class="toc-backref">Update System version 1.1</a>
+                                    <a class="headerlink" href="#section-update" title="Permalink to this headline">¶</a>
+                                </h1>
+                                    <article class="”entry-content”"> 
+                                    	<p>This is the way <strong>UPDATE </strong>Booking system, read carefully these steps below:</p>
+                                    	<p><strong>1. Download new package</strong> from CodeCanyon and Extract it </p>
+                                        <p><img class="alignnone size-full text-right" src="./assets/update-1.png"></p>
+                                    	
+										<p><strong>2. Backup your .env file &amp; storage folder:</strong> On the Update case, there are 2 files in your hosting need to be carefully: </p>
+											<p>* .env is DB information file </p>
+											<p>* storage is image folder &amp; something..</p>
+											<p>Note: Remember to backup 2 files on your hosting.</p>
+
+                                        <p><img class="alignnone size-full" src="./assets/update.png"></p>
+
+										<p><strong>3. After compression, Upload file zip to hosting</strong></p>
+										  <p><img class="alignnone size-full text-right" src="./assets/update-2.png"></p>
+                                    	<p><strong>4. Unzip new booking core zip file</strong>, After extracting file, copy back your old .env file + storage folder, this is important file need to be carefully.</p>
+
+										  <p><img class="alignnone size-full text-right" src="./assets/update-3.png"></p>
+										  <p> <strong>5. Copy all  file in storage/app/public to public/uploads </strong></p><h6 style="margin-bottom: 10px">Only [From vs 1.0 to 1.1.0]</h6>
+										  <p>The next step is <strong>Copy</strong> all file on <strong>storage/app/public</strong> to <strong>public/uploads</strong>. </p>
+										  	<p>However, this step is only required for updating from vs 1.0 to 1.1.0;  This make your site can work properly in version 1.1.0 and the next versions</p>
+										  <p><img class="alignnone size-full text-right" src="./assets/update-4.png"></p>
+										<p> <strong>6. Access your domain.com/update/110 to run the updater</strong></p>
+										<p>Link:<a href="http://docs.bookingcore.org/"> http://yourdomain.com/<strong>update/110</strong></a>	 </p>
+										<p>Wait in the minutes to update system, this is final step. After processing, you will be redirected  to your HOME PAGE</p>
+									</article>
+                                </section>
+                            </ul>
+                        </section>
+                        <section class="section document-section-item" id="section-installation-content-2">
+                            <ul class="sub-menu">
+
+                                <section class="section document-section-item" id="section-345" style="display: block;"><h1><a href="#section-345" class="toc-backref">One-click Install Demo Content</a>
+                                    <a class="headerlink" href="#section-345" title="Permalink to this headline">¶</a>
+                                </h1>
+                                    <p>(We recommended for Save Time for you )</p>
+                                    <p><strong>Import demo content</strong></p>
+                                    <p>To install demo content, go to Dashboard <strong>&gt; Theme Setting &gt;&nbsp;Once-click
+                                        install:</strong> Click <strong>Import Now</strong> button and wait the demo
+                                        content being imported (take a minutes)</p>
+                                   
+
+                                </section>
+
+                            </ul>
+                        </section>
+                        <section class="section document-section-item" id="section-general-guide-2">
+                            <ul class="sub-menu">
+                                <section class="section document-section-item" id="section-menu" style="display: block;"><h1><a href="#section-menu" class="toc-backref">Create Menu</a>
+                                    <a class="headerlink" href="#section-menu" title="Permalink to this headline">¶</a>
+                                </h1>
+                                    <article id="" class="hentry" style="display: block;">
+
+                                        <h4>Create normal Menu:</h4>
+                                        <div class="entry-content">
+                                            <p><strong>To Setup A New Menu, Follow The Steps Below.</strong></p>
+                                            <p style="padding-top: 10px;"><strong>Step 1 : </strong> Navigate to
+                                                <strong>Dashboard &gt; Menus</strong> section of your admin.</p>
+                                            <p><strong>Step 2 : </strong>Click the <strong>“Create A New Menu”</strong>
+                                                link to make a new menu. Enter the name then hit the <strong>“Create
+                                                    Menu”</strong> button.</p>
+                                            <p><a class="btn btn-primary btn-lg" title="View more here" href="http://codex.laravel.org/Laravel_Menu_User_Guide" target="_blank"> <img src="./assets/menu_normal.png">
+                                            </a></p>
+                                            <p><strong>Step 3 : </strong>To add a menu item, select one of your created
+                                                pages on the left hand side and click “Add to Menu”. You can
+                                                also add all kinds of different posts from the left side.</p>
+                                            <p><strong>Step 4 : </strong>To add a custom menu item, enter a custom name
+                                                and link into the “Links” box.</p>
+                                            <p><strong>Step 5 : </strong>Manage your menus by using the drag and drop
+                                                functionality. To create a dropdown menu, simply drag a menu item below
+                                                and slightly to the right of another menu item and it will lock into
+                                                place and create a dropdown section.</p>
+                                            <p><strong>Step 6 : </strong>After setting up your menu, scroll down to the
+                                                bottom of the page to assign <strong>Primary Navigation</strong> .</p>
+                                            <p><strong>Step 7 : </strong>Once its all done, make sure you click the
+                                                “Save” button.</p>
+                                        </div>
+
+                                    </article>
+                                </section>
+
+                            </ul>
+                        </section>
+                        <section class="section document-section-item" id="section-theme-options-2">
+                            <ul class="sub-menu">
+                                <section class="section document-section-item" id="setting-gen" style="display: block;">
+                                    <h1><a href="#setting-gen" class="toc-backref">General Options</a>
+                                        <a class="headerlink" href="#setting-gen" title="Permalink to this headline">¶</a>
+                                    </h1>
+
+                                    <p>– &nbsp;<strong>Site Information</strong>: Allow you to upload logo for your site on Top Header
+                                    </p>
+                                    <img class="alignnone size-full wp-image-149" src="./assets/site_info.png">
+                                    <p>-  <strong>Date Format</strong>: Enter the Date format that fit your Country <a href="https://www.php.net/manual/en/function.date.php#example-2823"> =&gt; Find Your DateFormat</a></p>
+                                    <p>– &nbsp;<strong>Language</strong>: Select the language that you want to use on Site, default English.
+                                    </p>
+                                    <img class="alignnone size-full wp-image-149" src="./assets/language.png">
+                                    <p>&nbsp;</p>
+                                    <p>– &nbsp;<strong>Contact Information</strong>: This address is used for admin purposes. Clients will contact you via this email address
+                                    </p>
+                                    <img class="alignnone size-full wp-image-149" src="./assets/contact.png">
+                                    <p>– &nbsp;<strong>HomePage</strong>: Select the page that you want to set it as Home Page
+                                    </p>
+                                    <p>&nbsp;</p>
+                                    <p>– <strong>Header  Settings</strong>: Enter your information to change the Default infor </p>
+                                    <p><img class="alignnone size-full wp-image-149" src="./assets/header.png"></p>
+                                    <p>&nbsp;</p>
+                                    <p>– <strong>Footer  Settings</strong>: Include Footer section and Footer bottoms </p>
+                                    <p>Default: there are 4 columns with size Col-3, just need to change the Content of each column, or change the number of column by the way you want</p>
+                                    <p><span>You can use HTML code on each column, that makes your information look nicer</span> </p>
+                                    <p><img class="alignnone size-full wp-image-149" src="./assets/footer.png"></p>
+
+                                    <p>&nbsp;</p>
+                                    <p>&nbsp;</p>
+                                </section>
+
+                                <section class="section document-section-item" id="setting-tour">
+                                    <h1><a href="#setting-tour" class="toc-backref">Tour Settings</a>
+                                        <a class="headerlink" href="#setting-tour" title="Permalink to this headline">¶</a>
+                                    </h1>
+
+                                    <p>– &nbsp;<strong>Tour Settings </strong>: This provide you some options that make you re-build the Tour Page by your ideas 
+                                    </p>   
+                                    <img class="alignnone size-full wp-image-149" src="./assets/tour_setting.png"><p></p>
+
+                                    <p>– &nbsp;<strong>Tour Review </strong>: This provide you some options that make you re-build the Tour Page by your ideas 
+                                    </p> 
+                                    <img class="alignnone size-full wp-image-149" src="./assets/tour_review.png"><p></p>
+
+
+                                </section>
+                                <section class="section document-section-item" id="setting-news">
+                                    <h1><a href="#setting-news" class="toc-backref">News Settings</a>
+                                        <a class="headerlink" href="#setting-news" title="Permalink to this headline">¶</a>
+                                    </h1>
+
+                                    <p>– &nbsp;<strong>News Settings </strong>: You can change some information on this Page Setting: Title, image banner, Some Widget on sidebar, check the image below:
+                                    </p>  
+                                    <p><img class="alignnone size-full wp-image-149" src="./assets/news_opt.png"></p>
+                                </section>
+                                <section class="section document-section-item" id="setting-booking">
+                                    <h1><a href="#setting-booking" class="toc-backref">Booking Settings</a>
+                                        <a class="headerlink" href="#setting-booking" title="Permalink to this headline">¶</a>
+                                    </h1>
+
+                                    <p>– &nbsp;<strong>Booking Settings </strong>: You can change some information on this Page Setting: Title, image banner, Some Widget on sidebar, check the image below:
+                                    </p>
+
+
+                                    <img class="alignnone size-full wp-image-149" src="./assets/booking_setting.png"> 
+                                </section>
+
+                                <section class="section document-section-item" id="setting-review">
+                                    <h1><a href="#setting-review" class="toc-backref">Review Manager</a>
+                                        <a class="headerlink" href="#setting-review" title="Permalink to this headline">¶</a>
+                                    </h1>
+
+                                    <p>– &nbsp;<strong>Booking Settings </strong>: You can change some information on this Page Setting: Title, image banner, Some Widget on sidebar, check the image below:
+                                    </p>
+
+
+                                    <img class="alignnone size-full wp-image-149" src="./assets/payment_opt.png"> 
+                                </section>
+                                <section class="section document-section-item" id="setting-payment">
+                                    <h1><a href="#setting-payment" class="toc-backref">Payment Settings</a>
+                                        <a class="headerlink" href="#setting-payment" title="Permalink to this headline">¶</a>
+                                    </h1>
+
+                                    <p>– &nbsp;<strong>Booking Settings </strong>: You can change some information on this Page Setting: Title, image banner, Some Widget on sidebar, check the image below:
+                                    </p>
+
+
+                                    <img class="alignnone size-full wp-image-149" src="./assets/payment_opt.png"> 
+                                </section>
+                                
+                                <section class="section document-section-item" id="setting-styling"><h1><a href="#setting-styling" class="toc-backref">Styling Settings</a>
+                                    <a class="headerlink" href="#setting-styling" title="Permalink to this headline">¶</a>
+                                </h1>
+
+                                    <p><strong>– Main Color</strong>: Select the color you want to set as Main
+                                        Color for site
+
+                                    </p><p><img class="alignnone size-full wp-image-176" src="./assets/styling_setting.png"></p>
+                                </section>
+
+
+                                <section class="section document-section-item" id="setting-adv">
+                                    <h1><a href="#setting-adv" class="toc-backref">Advance Settings</a>
+                                        <a class="headerlink" href="#setting-adv" title="Permalink to this headline">¶</a>
+                                    </h1>
+
+                                    <p>– &nbsp;<strong>Google Map API Key: </strong>Enter your google API key to this field
+                                    </p> 
+                                    <img class="alignnone size-full wp-image-149" src="./assets/adv_set.png"><p></p>
+                                </section>
+
+
+                            </ul>
+                        </section>
+                        <section class="section document-section-item" id="section-homepage-2">
+                            <ul class="sub-menu">
+
+                                <section class="section document-section-item" id="section-template" style="display: block;"><h1><a href="#section-template" class="toc-backref">Building Home Page</a>
+                                    <a class="headerlink" href="#section-template" title="Permalink to this headline">¶</a>
+                                </h1>
+                                <h4>Using Template for Page</h4>
+                                    <p>The template is built only for specific pages, with lots of information with special styles.</p>
+                                    <p>For pages you usually just need to enter title and information for the article, not using any particular template.</p>
+                                    <p>SEO page is good Feature That makes Google search friendly </p>
+                                    <p><img class="alignnone size-full" src="./assets/create_page.png"></p>
+
+                                    <p>&nbsp;</p>
+                                    
+                                    <h2></h2>
+                                </section>
+                                <section class="section document-section-item" id="section-buildhome"><h1><a href="#section-buildhome" class="toc-backref">Building Home Page</a>
+                                    <a class="headerlink" href="#section-buildhome" title="Permalink to this headline">¶</a>
+                                </h1>
+                                <h4>Create a template</h4>
+
+                                    <p>To create Front page:</p>
+                                    
+                                    <p>Step 1: Navigate to Template to build Home page content with Booking Core Elements</p>
+                                    <p>Step 2: Press to the <strong>+</strong> icon to ADD new Element to the Template</p>
+                                    <p>Step 3: Navigate to <strong>Pages &gt; Add new</strong> Page</p>
+                                    <p>&nbsp;</p>
+                                    <p><img class="alignnone size-full" src="./assets/template.png"></p>
+                                    <p>Step 4: Page Attributes box in right: choose <strong>Home&nbsp;template</strong> and Save the Page</p>
+                                    <p>Step 5: Navigate to dashboard <strong>Settings &gt; General Settings &gt; Home page</strong>&gt; Select the page created into the front page.</p>
+                                    <h2></h2>
+                                </section>
+                                 <section class="section document-section-item" id="section-contact"><h1><a href="#section-contact" class="toc-backref">Building Home Page</a>
+                                    <a class="headerlink" href="#section-contact" title="Permalink to this headline">¶</a>
+                                </h1>
+                                <h4>Contact Manager</h4>
+                                    <p>All email from the Page Contact will be added to this listing, Admin can check and contact to User by his way</p>
+                                    <p>  Navigate to <strong>Report &gt; Contact Submissions</strong></p>
+                                     <p>Easy to Delete or Search email </p>
+                                    <p><img class="alignnone size-full" src="./assets/contact(1).png"></p>
+                                    
+                                    <h2></h2>
+                                </section>
+                            </ul>
+                        </section>
+
+                        <section class="section document-section-item" id="section-elements">
+                            <ul class="sub-menu">
+                                <section class="section document-section-item" id="section-search" style="display: block;">
+                                    <h1><a href="#section-search" class="toc-backref">Booking Core Elements</a>
+                                        <a class="headerlink" href="#section-search" title="Permalink to this headline">¶</a>
+                                    </h1>
+
+                                    <h3>Dashboard &gt; Templates &gt; Build Template</h3>
+                                    <h4>1. Form Search Tour</h4>
+                                    <p>Image Banner with Search form, to build this section, just need to enter some information below:</p>
+                                    <ul>
+                                        <li>Sub-title: The small text above the Big Title</li>
+                                        <li>Title: Input the Text to set Title of Section</li>
+                                        <li>Background: Upload image to set Banner background for Home</li>
+
+                                    </ul>
+                                    <h4><img src="./assets/form_search.png" alt=""></h4>
+                                    <br><br>
+
+                                </section>
+                                <section class="section document-section-item" id="section-feature">
+                                    <h1><a href="#section-feature" class="toc-backref">Booking Core Elements</a>
+                                        <a class="headerlink" href="#section-feature" title="Permalink to this headline">¶</a>
+                                    </h1>
+                                    <h4>2. List Featured Item</h4>
+                                    <p>This element will help you show the best of what you can do for your customers </p>
+                                    <ul>
+                                        <li>Step 1:  Press to <strong>ADD NEW</strong> button to open New form content</li>
+                                        <li>Step 2: Enter Title, Sub Title and Upload Image </li>
+                                        <li>Step 3: After enter Full information, Remember to Press to <strong>SAVE CHANGES</strong> </li>
+                                        <li>Step 4: You also Remove the item that you don't need to show on section</li>
+                                        <li> <i style="font-size: 14px">Remember: there are 3 items per row.</i>  </li>
+                                        
+                                    </ul>
+                                    <h4><img class="alignnone size-full wp-image-328" src="./assets/feature_tours.png"></h4>
+                                </section>
+                                <section class="section document-section-item" id="section-tour">
+                                    <h1><a href="#section-tour" class="toc-backref">Booking Core Elements</a>
+                                        <a class="headerlink" href="#section-tour" title="Permalink to this headline">¶</a>
+                                    </h1>
+                                    <h4>3. List Tour</h4>
+                                    <p> This element gives you many options for custom layout. There are 2 styles to show list Tour: Slider and Row section</p>
+                                    <ul>
+                                        <li>Step 1: Enter Some Information like: Title(title of Section) and number item you want to show on Section    </li>
+                                        <li>Step 2: Select Style for Tour section    </li>
+                                        <li>Step 3: Filter by Category or Filter by Location, depends on your design. Leave blank if you don't want to filter them    </li>
+                                        <li>Step 4: Select Order list <strong>(Optional)</strong>    </li>
+ 
+                                    </ul>
+                                    <h4><img class="alignnone size-full wp-image-328" src="./assets/list_tour.png"></h4>
+                                </section>
+                                <section class="section document-section-item" id="section-location">
+                                    <h1><a href="#section-location" class="toc-backref">Booking Core Elements</a>
+                                        <a class="headerlink" href="#section-location" title="Permalink to this headline">¶</a>
+                                    </h1>
+                                    <h4>4. List Location</h4>
+                                    <p>This element will help you show a service content:</p>
+                                    <ul>
+                                        <li>Step 1: Select Service for Location section    </li>
+
+                                        <li>Step 2: Enter Some Information like: Title(title of Section) and number item you want to show on Section    </li>
+                                        <li>Step 4: Select Order list <strong>(Optional)</strong>    </li>
+ 
+                                    </ul>
+                                    <h4><img class="alignnone size-full wp-image-328" src="./assets/lst_location.png"></h4>
+                                </section>
+                                <section class="section document-section-item" id="section-call">
+                                    <h1><a href="#section-call" class="toc-backref">Booking Core Elements</a>
+                                        <a class="headerlink" href="#section-call" title="Permalink to this headline">¶</a>
+                                    </h1>
+                                    <h4>5. Call to Action</h4>
+                                    <p> This section provides information as an offer for customers who want to become Website partners, to build the section, enter some information below: </p>
+                                    <ul> <li>Title: Enter a special title to attract customers' interest</li>
+                                        <li>Sub-title: Short description of an attractive offer, attractive reasons for ventor</li>
+                                    </ul>
+                                    <h4><img class="alignnone size-full wp-image-328" src="./assets/call_to_action.png"></h4>
+                                </section>
+                                <section class="section document-section-item" id="section-testimonial">
+                                    <h1><a href="#section-testimonial" class="toc-backref">Booking Core Elements</a>
+                                        <a class="headerlink" href="#section-testimonial" title="Permalink to this headline">¶</a>
+                                    </h1>
+                                    <h4>6. List Testimonial</h4>
+                                    <p>Show as the Row section, there are 3 items per Row. This is Review for your Website, should use the Best Comment. To build this section just need to enter some information below: </p>
+                                    <ul>
+                                         <li>Step 1: Enter Title of Section</li>
+                                         <li>Step 2: Press to the <strong>ADD NEW</strong> to Open form content</li>
+                                         <li>Step 3: Enter Name and the User's Comment</li>
+                                         <li>Step 4: Select the Star point as the customer satisfaction rating</li>
+                                         <li>Step 5: After building the Testimonial, Remember to <strong>SAVE CHANGE</strong> anything before Closing</li>
+
+                                    </ul>
+                                    <h4><img class="alignnone size-full wp-image-328" src="./assets/testimonial.png"></h4>
+                                </section>
+                                <section class="section document-section-item" id="section-text">
+                                    <h1><a href="#section-text" class="toc-backref">Booking Core Elements</a>
+                                        <a class="headerlink" href="#section-text" title="Permalink to this headline">¶</a>
+                                    </h1>
+                                    <h4>7. Text Element</h4>
+                                    <p>This element is additions, you can use :</p>
+                                    <ul>
+                                        <li>Service Styles:</li>
+                                        <li>Content Align: Right, Center, Left</li>
+                                        <li>Icon: Icon for the element</li>
+                                        <li>Title: Name of the service</li>
+                                        <li>Desc: Description about it</li>
+                                    </ul>
+                                    <h4><img class="alignnone size-full wp-image-328" src="./assets/text_ele.png"></h4>
+                                </section>
+
+                            </ul>
+                        </section>
+                        <section class="section document-section-item" id="tour-manage">
+                            <ul class="sub-menu">
+
+                                <section class="section document-section-item" id="tour-manage" style="display: block;"><h1><a href="#tour-manage" class="toc-backref">Tour Manager</a>
+                                    <a class="headerlink" href="#tour-manage" title="Permalink to this headline">¶</a>
+                                </h1>
+
+                                <h4>1. Tour manager</h4>
+                                <p>Navigate to <strong>Dashboard &gt; Tour</strong>, this is Tour manager. You can do <strong>Bulk Action</strong>(Delete, Trash) any Tour or <strong>Search</strong> by any Tour Information like: Name, Category, Author.. </p>
+                                <p>The Tour List will get all Tour that is Publish Status, View more on <a href="https://www.bookingcore.org/tour" target="_blank">Page List Tour</a></p>
+                                <p>&nbsp;</p>
+                                <p><img src="./assets/listtour.png"></p>
+                                 
+                                </section>
+                                <section class="section document-section-item" id="create-tour"><h1><a href="#create-tour" class="toc-backref">Tour Manager</a>
+                                    <a class="headerlink" href="#create-tour" title="Permalink to this headline">¶</a>
+                                </h1>   
+                                <h4>2. Create New Tour</h4>
+                                <p>Navigate to <strong>Dashboard &gt; Tour &gt; Add Tour</strong>, then Add some infomation like: Name, Tour Content, Descriptions, Attribute for Tour.. </p>
+                                <ul>
+                                    <li><strong>Title </strong>: Use good name for Tour will help Google find you easier</li> 
+                                    <li><strong>Content </strong>: write a detailed description about Tour</li> 
+                                    <li><strong>Category </strong>: Select Tour Category will help client Filter it easier</li>
+                                    <li><strong>Youtube Video </strong>: On this version we only support youtu video, you should upload good quality video to show it on Single current Tour banner  </li>
+                                    <li><strong>Duaration </strong>: the number is calculated by Hour</li>
+                                    <li><strong>Tour number Person </strong>: enter the limitation(Min/Max of number Person) for Tour</li>
+                                    <li><strong>FAQ's </strong>(Optional): Enter commonly asked questions from customers </li>
+                                    
+                                </ul>
+                                <p><img src="./assets/create.png"></p>
+                                <h4>Tour Location</h4>
+                                    <li><strong>Location </strong>: Select the Location for Tour, <a href="#location-list">Create more Location</a> </li> 
+                                    <li><strong>Real tour address </strong>: enter address for Tour </li> 
+                                    <li><strong>Map Engine </strong>:  just need to mark the point of Location in the Map, the Long&amp;Lat information will be generated, Zoom default is 12</li>  
+                                <p><img src="./assets/tour_location.png"></p>
+                                <h4>Pricing for Tour</h4>
+                                <p>There are 2 ways to calculate the price for Tour:</p>
+                                <ul>
+                                    <li><strong>1. Fixed Price:</strong> All in price of Tour for maximum / minimum people specified</li>
+                                    <li><strong>2. Price by Type of Person:</strong> price for each person</li>
+                                </ul>
+                                <p><strong>Extra service</strong>(Optional): you can add more service for your Tour like: FastFood, Drinks.. </p>
+                                <p><img src="./assets/pricing.png"></p>
+                                <h4> SEO Manage:</h4>
+                                <p><img src="./assets/seo.png"></p>
+
+                                   
+                                    <h2></h2>
+                                </section>
+                                <section class="section document-section-item" id="tour-category"><h1><a href="#tour-category" class="toc-backref">Tour Category</a>
+                                    <a class="headerlink" href="#tour-category" title="Permalink to this headline">¶</a>
+                                </h1>
+
+                                <h4>3. Tour's Category</h4>
+                                <p>Navigate to <strong>Dashboard &gt; Tour &gt; Category</strong>, this is category list of Tour. On right Panel, You can do <strong>Bulk Action</strong>(Delete, Trash) any Tour or <strong>Search</strong> by name of Category </p>
+                                <p>On Left Panel, you can add Category for Tour easier.</p>
+                                <p>&nbsp;</p>
+                                <p><img src="./assets/tour_category.png"></p>
+                                 
+                                </section>
+                                 <section class="section document-section-item" id="tour-attribute"><h1><a href="#tour-attribute" class="toc-backref">Tour Attribute</a>
+                                    <a class="headerlink" href="#tour-attribute" title="Permalink to this headline">¶</a>
+                                </h1>
+
+                                <h4>4. Tour's Attributes</h4>
+                                <p>Navigate to <strong>Dashboard &gt; Tour &gt; Attributes</strong> to see Panel manage. And just need to enter Name of Attributes =&gt; press to <strong>Add New</strong> button, new Attribute will be created </p> 
+                                <p><img src="./assets/tour_attr.png"></p>
+                                 <p>After creating, you have to go to Manage Term of that Attribute by Press to <strong>Manage Terms</strong> to add more Term for Attribute</p>
+                                <p><img src="./assets/term.png"></p>
+
+                                </section>
+                            </ul>
+                        </section>
+                    <section class="section document-section-item" id="section-review"> 
+                        <h1><a href="#section-review" class="toc-backref">Review Manager</a>
+                        <a class="headerlink" href="#section-review" title="Permalink to this headline">¶</a>
+                        </h1>
+                        <article class="entry-content">
+                             <h4>1. Review manager</h4>
+                                <p>Navigate to <strong>Dashboard &gt; Reviews</strong>, this is Review manager <strong>Only for Tour</strong>, we don't support review for News. You can do <strong>Bulk Action</strong>(Approved, Pending, Spam Delete, Trash) any review or <strong>Search</strong> by any Review Information like: Name, Review content, Author.. </p>
+                                <p>The Review List will get all Review that is Approved Status,
+                                </p><p><img src="./assets/review.png"></p>
+                             <h4>2. Review Setting</h4>
+                            <p>Navigate to <strong>Dashboard &gt; Settings &gt; Tour Settings &gt; Review Options</strong> </p>
+                                <p><img src="./assets/tour_review.png"></p>
+                             <h4>Review Form</h4>
+                                <p><img src="./assets/review_form.png"></p>
+
+
+                        </article>
+                       
+                    </section>
+                    <section class="section document-section-item" id="location_manage">
+                        <h1><a href="#location_manage" class="toc-backref">Location Manage</a>
+                        <a class="headerlink" href="#location_manage" title="Permalink to this headline">¶</a>
+                         </h1>
+                        <article class="entry-content">
+                            <h4>Dashboard &gt; Location </h4>
+                            <p>You can create a location directly in the control panel </p>
+                            <p> <strong>1: On Left panel</strong> you can see the form that use to create new Location =&gt; <strong> Add new Location</strong></p>
+                            <p> Just need to enter the Location Name, select Parent(Optional), Mark to the Map Engine then <strong>Add New</strong></p>
+                            <p>  <strong>2: On the Right Panel</strong> is list Location, you can manage it easy, do <strong>Bulk Action</strong>(Approved, Pending, Spam Delete, Trash) any review or <strong>Search</strong> by Location name</p>
+                            <p><img class="alignnone size-full" src="./assets/location.png"></p>
+                            <p>&nbsp;</p>
+                            <h4>Edit Location </h4>
+                            <p><img class="alignnone size-full" src="./assets/location-edit.png"></p>
+
+                        </article>
+                    </section>
+
+                        <section class="section document-section-item" id="section-news">
+                            <ul class="sub-menu">
+                                <section class="section document-section-item" id="section-news" style="display: block;"><h1><a href="#section-news" class="toc-backref">Creating Blog Posts</a>
+                                    <a class="headerlink" href="#section-news" title="Permalink to this headline">¶</a>
+                                </h1>
+                                    <article class="entry-content">
+
+                                        <h4>Steps to Create A Blog Post:</h4>
+                                        <p style="padding-top: 10px;"><strong>Step 1</strong> – In your <strong>Dashboard</strong>,
+                                            go to <strong>Posts</strong>, <strong>Add New</strong></p>
+                                        <p><strong>Step 2</strong> – Enter the post’s title and content in the
+                                            editing field.</p>
+                                        <p><strong>Step 3</strong> – Add <strong>Categories</strong>: To assign it to
+                                            the post, check the box next to the Category name.</p>
+                                        <p><strong>Step 4</strong> – Add <strong>Tags</strong>: Type the words to be
+                                            tagged, separate multiple tags with commas.</p>
+                                        <p><strong>Step 5</strong> – Choose Featured image: click <strong>“Set Featured
+                                            Image”</strong> then choose a image for your post.</p>
+                                        <p><strong>Step 6</strong> - <strong> SEO post</strong>: Leave blank if you want to use Default Information to SEO </p>
+
+                                        <p><strong>Step 7</strong> – When you have finished, click
+                                            <strong>Publish</strong> to save and publish the post.</p>
+                                        <p><img class="alignnone size-full" src="./assets/create-post.png"></p>
+
+                                    </article>
+                                </section>
+                            </ul>
+                        </section>
+                        <section class="section document-section-item" id="section-homepage-2">
+                            <ul class="sub-menu">
+
+                                <section class="section document-section-item" id="section-user" style="display: block;">
+                                    <h1><a href="#section-user" class="toc-backref">User management</a>
+                                        <a class="headerlink" href="#section-user" title="Permalink to this headline">¶</a>
+                                    </h1>
+                                <h4>Dashboard &gt; Users &gt; All User </h4>
+
+                                    <p>Users are people who use services provided by customers and each user can have Role limitations. Customers can create, modify and delete users but the owner is the subscriber who is also the owner of these customers. To separate users among customers of one subscriber, user prefix is used.</p>
+                                    <p>1. Easy manager and create new user.  </p>
+                                    <p>2. Change Password</p>
+                                    <p>&nbsp;</p>
+                                    <p><img class="alignnone size-full" src="./assets/user_mana.png"></p>
+                                    
+                                    <h2></h2>
+                                </section>
+                                <section class="section document-section-item" id="section-role">
+                                    <h1><a href="#section-role" class="toc-backref">Roles management</a>
+                                        <a class="headerlink" href="#section-role" title="Permalink to this headline">¶</a>
+                                    </h1>
+                                <h4>Dashboard &gt; Users &gt; Role Manager  </h4>
+                                 
+                                    <p>  This panel is Role listing, Admin can create new Role easy, just need to enter its name.</p> 
+                                    <p><img class="alignnone size-full" src="./assets/role.png"></p>
+                                    <p>After create the Name of ROLE, see the <strong>Permission Matrix</strong> button</p>
+                                    <p><strong>Check</strong> to the Permission you want to share to User Role</p>
+                                    <p><img class="alignnone size-full" src="./assets/matrix.png"></p>
+
+                                </section>
+                                <section class="section document-section-item" id="section-permission">
+                                    <h1><a href="#section-permission" class="toc-backref">Permissons management</a>
+                                        <a class="headerlink" href="#section-permission" title="Permalink to this headline">¶</a>
+                                    </h1>
+                                <h4>Dashboard &gt; Users &gt; Permissons  </h4>
+                                    <p>You can create a Permisson directly in the control panel</p>
+                                    <p>1: This page is showing all the Permission that is existed on Database.    </p>
+                                    <p>The Permission role will help Administrators to assign rights to users more easily, this features support Membership functions. The right to post articles about real-world experiences or the Tour without having difficulty restricting rights.</p>
+                                    <p>2. To create new Permisson, <strong>PRESS</strong> to <strong>Add New</strong> button, then enter the name of that Permission. But remember to write the text without SPACE</p>
+                                    <p><img class="alignnone size-full" src="./assets/permiss.png"></p>
+                                    
+                                    <h2></h2>
+                                </section>
+                                <section class="section document-section-item" id="section-subscrible">
+                                    <h1><a href="#section-subscrible" class="toc-backref">Subscribles management</a>
+                                        <a class="headerlink" href="#section-subscrible" title="Permalink to this headline">¶</a>
+                                    </h1>
+                                <h4>Dashboard &gt; Users &gt; Subscribers </h4>
+                                    <p>You can create a user directly in the control panel </p>
+                                    <p> 1: On Left panel you can see the form that use to create new Subscrible =&gt; <strong> Add new Subscrible</strong></p>
+                                    <p> Just need to enter the name, email address then <strong>SAVE</strong></p>
+                                    <p> 2: On the Right Panel is list Subscribe, you can manage it easy, even EXPORT data for backup.</p>
+                                    <p><img class="alignnone size-full" src="./assets/subcrible.png"></p>
+                                    
+                                    <h2></h2>
+                                </section> 
+
+                            </ul>
+                        </section>
+                        <section class="section document-section-item" id="section-report">
+                            <ul class="sub-menu">
+                                <section class="section document-section-item" id="section-report" style="display: block;">
+                                    <h1><a href="#section-report" class="toc-backref">Report manage</a>
+                                    <a class="headerlink" href="#section-report" title="Permalink to this headline">¶</a>
+                                 </h1>
+                                  <h4>Dashboard &gt; Report &gt; Booking Report </h4>
+                                 
+                                <p>  <strong>  On this Panel</strong> is list Booking , you can manage it easy, do <strong>Bulk Action</strong>: Mark as Completed, Mark as Processing, Mark as Confirmed, Mark as Canceled, Mark as Paid, Mark as UnPaid, DELETE Booking or <strong>Search</strong> by booking name or owner booking tour</p>
+                                <p> <img src="./assets/report.png" alt=""></p> 
+
+                                </section>
+                                 <section class="section document-section-item" id="setting-statistic">
+                                    <h1><a href="#setting-statistic" class="toc-backref">Booking Statistic</a>
+                                    <a class="headerlink" href="#setting-statistic" title="Permalink to this headline">¶</a>
+                                 </h1>
+                                <p> <img src="./assets/statistic.png" alt=""></p> 
+                                <h4>Earning statistics Management</h4>
+                                <p>On this panel you can manage your Earning easier</p>
+                                <p> <img src="./assets/booking_static.png" alt=""></p> 
+
+                                </section>
+                            </ul>
+
+
+                        <section class="section document-section-item" id="section-extra-2">
+                            <ul class="sub-menu">
+                                 <section class="section document-section-item" id="section-language" style="display: block;"><h1><a href="#section-language" class="toc-backref">Languages manage</a>
+                                    <a class="headerlink" href="#section-language" title="Permalink to this headline">¶</a>
+                                </h1>
+                                <p>The First Step to build Multi-language is Create the Language for site,<strong> navigate to Dashboard &gt; Tools &gt; Language</strong></p>
+                                <p> to see the Language Panel</p>
+                                <p>1. Select the Language you want to add</p>
+                                <p>2. Enter the Flag code of language, you can <a href="http://flag-icon-css.lip.is/">find more here</a></p>
+                                <p>3. Press to <strong>Save</strong> button to build</p>
+                                <p> <img src="./assets/language(1).png" alt=""></p> 
+                                    
+                                    
+                                </section>
+                                <section class="section document-section-item" id="section-translate"><h1><a href="#section-translate" class="toc-backref">Translations Manager</a>
+                                    <a class="headerlink" href="#section-translate" title="Permalink to this headline">¶</a>
+                                </h1>
+
+                                    <p>All our Booking System are translation-ready which means that you can easily translate them into any language you want. Here are some instructions: </p>
+                                    <p>Firstly, navigate to <strong><em>Dashboard -&gt; Translation -&gt; Site language</em></strong>, see the <strong>Translated </strong>column, its 0/0. That's mean your site is empty.</p>
+                                    <p>  <img src="./assets/translation.png" alt=""></p> 
+
+                                    <p>Secondly, <strong>START Build language file</strong> </p>
+                                    <p>  <img src="./assets/translation-2.png" alt=""></p> 
+
+                                    <p>Thirdly, press to <strong>Translate</strong> button, to <strong>START</strong> translate file</p>
+                                    <p>  <img src="./assets/translation-3.png" alt=""></p> 
+                                   
+                                     
+                                     
+                                </section>
+                                 <section class="section document-section-item" id="section-log"><h1><a href="#section-log" class="toc-backref">System Logs</a>
+                                    <a class="headerlink" href="#section-log" title="Permalink to this headline">¶</a>
+                                </h1>
+                                 <p>Log data is one of the most valuable assets in IT security intelligence. Logs can give you a general overview of your system and let you gain powerful insights into its vulnerabilities.</p>
+                                <p>Specialized event log management tools will make the IT admin’s life easier.</p>
+                                    <p>
+                                        <img src="./assets/logs.png" alt=""></p>
+
+                                </section>
+ 								<section class="section document-section-item" id="v1"><h1><a href="#v1" class="toc-backref">Thank you for used our product Booking Core</a>
+                                    <a class="headerlink" href="#v1" title="Permalink to this headline">¶</a>
+                                </h1>
+                                 <div class="entry-content" itemprop="articleBody">
+                                 	<h3>Version 1.1.0 - Jul 10 - 2019 </h3>
+                                 	<div class="news">
+                                 		<h5>- NEW:</h5>	
+                                 		<p>+ Tour Booking Calendar: View all your tour bookings in calendar (Only for Admin, will update for Vendor later)</p>
+										<p>+ Stripe Standard Payment Gateway</p>
+										<p>+ Change default forgot password email template to match our design</p>
+										<p>+ Add bulk actions for Language Management page</p>
+										<p>+ Add options for enable ReCaptcha in Login/Register and Booking form</p>
+										<p>+ Move uploads folder to "public/uploads", you need to copy all old files under "storage/app/public" to "public/uploads"</p>
+										<p>+ Add "Find Translations" button in Translation Tool</p>
+										<h5>- Fix:</h5>
+										<p>+ Bug create/update user</p>
+										<p>+ Bug in translations tool</p>
+										<p>+ Bug button "remove" in tour page does not work</p>
+										<p>+ Change default image size in tour search page to width: 600px (old is 150px)</p>
+										<p>+ Bug in delete menu item</p>
+										<p>+ Other small improvements</p>
+										<strong>See How to <a class="headerlink" target="_blank" href="#section-update">Update system</a></strong>
+                                 	</div>		
+
+                                 </div>
+                             </section>
+
+
+
+
+
+
+                                <section class="section document-section-item" id="section-thanks"><h1><a href="#section-thanks" class="toc-backref">Thank you for used our product Booking Core</a>
+                                    <a class="headerlink" href="#section-thanks" title="Permalink to this headline">¶</a>
+                                </h1>
+                                 <div class="entry-content" itemprop="articleBody">
+               
+                                <p><strong>Released</strong>:   27 June 2019</p>
+                                <p><strong>Made by</strong>: <a href="https://codecanyon.net/user/bookingcore/portfolio">Booking Core Team &nbsp;</a></p>
+                                <p><strong>Documentation</strong>: <a href="http://guide.travelerwp.com/">Our Guide</a></p>
+                                <p><strong>Get support at</strong>: <a href="https://www.facebook.com/bookingcore/">Facebook community</a></p>
+                               
+                                <p><strong>Support Policy</strong>: <a href="https://themeforest.net/page/item_support_policy">Read Carefully This</a></p>
+                                
+                                <p><strong>Request and Vote Features you want on Booking</strong>: <a href="https://www.facebook.com/bookingcore/">Check it here</a></p>
+                            
+                                <p>We are one of the strong teams in developing Online Booking system, trusted by over 10,000 customers. However, we are also looking forward to the positive feedback as well as the contributions to build a perfect Booking system.</p>
+                                <p>We would like to express our sincere thanks to our customers , who are companions and stick with us all the way ahead.</p>
+                                <p>Cordially greet and to win! </p>
+                            </div>   
+
+                                </section>
+                            </ul>
+                        </section>
+                    </section></ul></section></div>
+                </div>
+                <footer>
+
+                    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+
+                        <!--<a href="how_to_solve_nearly_every_problem.html" class="btn btn-neutral float-right"
+                           title="How to Solve Nearly Every Problem" accesskey="n">Next <span
+                                class="fa fa-arrow-circle-right"></span></a>-->
+
+
+                    </div>
+
+
+                    <hr>
+
+                    <div role="contentinfo">
+                        <p>
+                            © Copyright 2019, Booking Core Team.
+                        </p>
+                    </div>
+
+                </footer>
+
+            </div>
+        </div>
+
+    </section>
+</div>
+
+
+<script type="text/javascript">
+    var DOCUMENTATION_OPTIONS = {
+        URL_ROOT: './',
+        VERSION: '1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE: true
+    };
+</script>
+
+<script type="text/javascript" src="./assets/jquery-2.0.3.min.js.download"></script>
+<script type="text/javascript" src="./assets/jquery-migrate-1.2.1.min.js.download"></script>
+<script type="text/javascript" src="./assets/underscore.js.download"></script>
+
+<script type="text/javascript" src="./assets/custom.js.download"></script>
+
+<style>
+    .document-section-item {
+        display: none;
+    }
+</style>
+
+
+
+</body></html>

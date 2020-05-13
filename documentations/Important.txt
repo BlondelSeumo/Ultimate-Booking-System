@@ -1,0 +1,10 @@
+Booking Core is a Booking System based on Laravel, designed for a travel website, Marketplace, Travel Agency, Tour Operator, 
+Room Bnb, Villa Rental, Resort Rental, Make Travel website. 
+
+
+
+Works fine , for those who can't install
+
+Just hit the localhost/yourproject/public/install
+
+Enjoy

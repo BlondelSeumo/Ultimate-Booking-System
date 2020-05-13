@@ -1,0 +1,122 @@
+/* Left for CSS overrides we need to make in the future */
+
+/* Fix badge on RTD Theme */
+
+/* Please keep RTD badge displayed on your site */
+.rst-versions.rst-badge {
+    display: block;
+}
+
+.rst-other-versions {
+	text-align: left;
+}
+
+.rst-other-versions a {
+	border: 0;
+}
+
+.rst-other-versions dl {
+	margin: 0;
+}
+
+
+/* Fix RTD theme bottom margin */
+.rst-content .line-block {
+	margin-bottom: 24px
+}
+
+/* bookmark icon */
+.bookmark-added-msg {display: none;}
+.bookmark-active {display: none;}
+.bookmark-inactive {display: none;}
+
+
+/* Read the Docs promotional block, only applicable to RTD.org */
+div.wy-menu.rst-pro {
+    display: block;
+    bottom: 60px;
+    width: 300px;
+    padding: .5em;
+    margin: 1em 0em 1em 0em;
+    text-align: center;
+
+    background: rgba(0, 0, 0, .06);
+}
+
+@media (max-width: 768px) {
+    div.wy-menu.rst-pro {
+        display: none;
+    }
+}
+
+div.wy-menu.rst-pro > span {
+    display: block;
+    color: #838383;
+    font-size: 90%;
+}
+
+div.wy-menu.rst-pro a,
+div.wy-menu.rst-pro a:link,
+div.wy-menu.rst-pro a:visited { color: #b3b3b3; }
+
+div.wy-menu.rst-pro a:hover,
+div.wy-menu.rst-pro a:active { color: #c3c3c3; }
+
+div.wy-menu.rst-pro a.rst-pro-image-wrapper {
+    display: inline-block;
+    padding: 6px;
+    margin: 5px 0px 10px 0px;
+    border: 1px solid #434343;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+div.wy-menu.rst-pro img {
+    width: 120px;
+    height: 90px;
+}
+
+div.wy-menu.rst-pro div.rst-pro-about {
+    float: right;
+    text-align: right;
+    color: white;
+    font-size: 90%;
+}
+.wy-menu-vertical li.current ul
+{
+    display: none;
+}
+.wy-nav-content
+{
+    max-width: none;
+}
+.wy-menu-vertical .active>a {
+    background-color: #4e4a4a;
+}
+.wy-menu-vertical .sub-menu .active>a {
+    background-color: #d6d6d6;
+}
+.wy-menu-vertical a span.toctree-expand {
+    color: #b3b3b3;
+}
+pre{
+    white-space: pre-wrap;
+    display: inline-block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #333;
+    /*word-break: break-all;*/
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.wy-menu-vertical a{ font-size: 100% }
+.wy-side-nav-search>a, .wy-side-nav-search .wy-dropdown>a {
+    font-size: 20px; 
+    padding: 13px 6px;
+}
+.wy-menu-vertical li.current a {    font-size: 93%;}

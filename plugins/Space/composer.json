@@ -1,0 +1,25 @@
+{
+    "name": "bookingcore/space",
+    "description": "",
+    "authors": [
+        {
+            "name": "BookingCore",
+            "email": "bookingcore.org@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Plugins\\Space\\Providers\\SpaceServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Plugins\\Space\\": ""
+        }
+    }
+}
