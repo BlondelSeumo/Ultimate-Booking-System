@@ -37,7 +37,7 @@
     "@ckeditor/ckeditor5-editor-classic": "^12.0.0",
     "@ckeditor/ckeditor5-essentials": "^11.0.0",
     "@ckeditor/ckeditor5-heading": "^11.0.0",
-    "@ckeditor/ckeditor5-image": "^13.0.0",
+    "@ckeditor/ckeditor5-image": "^27.0.0",
     "@ckeditor/ckeditor5-link": "^11.0.0",
     "@ckeditor/ckeditor5-list": "^12.0.0",
     "@ckeditor/ckeditor5-media-embed": "^11.0.0",
